@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Dermalyze</title>
-        <link>https://dermalyze.tech/</link>
-        <description>Recent content on Dermalyze</description>
+        <title>prototypes on Dermalyze</title>
+        <link>https://dermalyze.tech/categories/prototypes/</link>
+        <description>Recent content in prototypes on Dermalyze</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>Dermalyze</copyright>
-        <lastBuildDate>Sun, 28 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://dermalyze.tech/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 28 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://dermalyze.tech/categories/prototypes/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Prototype #1</title>
         <link>https://dermalyze.tech/p/prototype-1/</link>
         <pubDate>Sun, 28 Jan 2024 00:00:00 +0000</pubDate>
@@ -48,64 +48,6 @@
 &lt;h3 id=&#34;future-plans&#34;&gt;Future Plans&lt;/h3&gt;
 &lt;p&gt;        Now that we have gauged what our AI model can become, we are researching pyTorch and other machine learning notebooks to recreate this model with our own hands. Because it will be us that will have made the model, we also plan to have additional functionality to it and we intend to put it through a more advanced training set so that it will be able to more accurately detect and diagnose certain skin conditions.&lt;/p&gt;
 </description>
-        </item>
-        <item>
-        <title>About Us</title>
-        <link>https://dermalyze.tech/about-us/</link>
-        <pubDate>Wed, 24 Jan 2024 00:00:00 +0000</pubDate>
-        
-        <guid>https://dermalyze.tech/about-us/</guid>
-        <description>&lt;p&gt;Dermalyze is a startup AI project designed to detect common skin conditions on the body.&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>About Us</title>
-        <link>https://dermalyze.tech/p/about-us/</link>
-        <pubDate>Wed, 24 Jan 2024 00:00:00 +0000</pubDate>
-        
-        <guid>https://dermalyze.tech/p/about-us/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Archives</title>
-        <link>https://dermalyze.tech/archives/</link>
-        <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
-        
-        <guid>https://dermalyze.tech/archives/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Links</title>
-        <link>https://dermalyze.tech/links/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://dermalyze.tech/links/</guid>
-        <description>&lt;p&gt;Here you can find all the links related to our project.&lt;/p&gt;
-&lt;!--To use this feature, add `links` section to frontmatter.
-
-This page&#39;s frontmatter:
-
-```yaml
-links:
-  - title: GitHub
-    description: GitHub is the world&#39;s largest software development platform.
-    website: https://github.com
-    image: https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
-  - title: TypeScript
-    description: TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.
-    website: https://www.typescriptlang.org
-    image: ts-logo-128.jpg
-```
-
-`image` field accepts both local and external images.--&gt;</description>
-        </item>
-        <item>
-        <title>Search</title>
-        <link>https://dermalyze.tech/search/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://dermalyze.tech/search/</guid>
-        <description></description>
         </item>
         
     </channel>

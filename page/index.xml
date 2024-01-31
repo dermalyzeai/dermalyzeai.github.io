@@ -30,7 +30,8 @@
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>https://dermalyze.tech/links/</guid>
-        <description>&lt;!--To use this feature, add `links` section to frontmatter.
+        <description>&lt;p&gt;Here you can find all the links related to our project.&lt;/p&gt;
+&lt;!--To use this feature, add `links` section to frontmatter.
 
 This page&#39;s frontmatter:
 

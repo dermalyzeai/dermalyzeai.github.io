@@ -7,7 +7,49 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>Dermalyze</copyright>
-        <lastBuildDate>Wed, 24 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://dermalyze.tech/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 28 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://dermalyze.tech/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Prototype #1</title>
+        <link>https://dermalyze.tech/p/prototype-1/</link>
+        <pubDate>Sun, 28 Jan 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://dermalyze.tech/p/prototype-1/</guid>
+        <description>&lt;p&gt;&lt;img src=&#34;https://dermalyze.tech/p/prototype-1/Proto.png&#34;
+	width=&#34;1920&#34;
+	height=&#34;1080&#34;
+	srcset=&#34;https://dermalyze.tech/p/prototype-1/Proto_hu2d32df7102f04c091914f5c3e476d20f_120440_480x0_resize_box_3.png 480w, https://dermalyze.tech/p/prototype-1/Proto_hu2d32df7102f04c091914f5c3e476d20f_120440_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Working screenshot of our first model&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;177&#34;
+		data-flex-basis=&#34;426px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;what-we-did&#34;&gt;What We Did&lt;/h3&gt;
+&lt;p&gt;        Recently, we just developed a very basic rendition of an AI skin-condition detection model. For our temporary purposes, we used a pre-trained checkpoint with minimal accuracy as a proof of concept. We developed our model on a web-app created by a powerful web development python library called Streamlit. Streamlit is very user-friendly when it comes to setting up web-apps, and it was also designed for the purpose of running these machine learning models. With it&amp;rsquo;s easy-to-learn documentation and convenient implementation, we knew that it was our go-to choice to support our model whilst running well on the front-end side of things. And just within 24 hours, we were able to get this application up and running.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://dermalyze.tech/p/prototype-1/ProtoCam.png&#34;
+	width=&#34;496&#34;
+	height=&#34;748&#34;
+	srcset=&#34;https://dermalyze.tech/p/prototype-1/ProtoCam_huea02927febf2ac6fc4db0059b39f96fb_37357_480x0_resize_box_3.png 480w, https://dermalyze.tech/p/prototype-1/ProtoCam_huea02927febf2ac6fc4db0059b39f96fb_37357_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Camera Functionality for Mobile Use&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;66&#34;
+		data-flex-basis=&#34;159px&#34;
+	
+&gt; &lt;!--&lt;img src=&#34;ProtoCam.png&#34; width=372px margin-left=auto margin-right=auto&gt;--&gt;&lt;/p&gt;
+&lt;p&gt;        But why such a short time contraint? Well, this project was actually one of our submissions for a hackathon. This hackathon, known as &amp;ldquo;HackTAMS&amp;rdquo; is hosted locally by our computer science organization and lasts about 24 hours. In that short time span, we had to get a project done so we could have it demonstrated to the judges in the morning. We scoured for ideas, features we could implement, and after we got into the flow of coding, it was all problem solving from there. We encountered a good load of issues integrating the model we found into our web-app, but with our teammate Siddarth, who is fluent in python, we managed to implement the model successfully and even get a camera feature running. Throughout the night, we decided to add more features such as a chatbot that would recommend the right type of skin products for your condition.&lt;/p&gt;
+&lt;p&gt;        Although we didn&amp;rsquo;t win any awards at the competition, the product we devloped was the prize in itself, and we couldn&amp;rsquo;t have been prouder the way things had turned out for this project. After getting sleep from our hackathon caffeine binge, we intend to develop a model like this on our own that we hope will surpass this prototype.&lt;/p&gt;
+&lt;h3 id=&#34;future-plans&#34;&gt;Future Plans&lt;/h3&gt;
+&lt;p&gt;        Now that we have gauged what our AI model can become, we are researching pyTorch and other machine learning notebooks to recreate this model with our own hands. Because it will be us that will have made the model, we also plan to have additional functionality to it and we intend to put it through a more advanced training set so that it will be able to more accurately detect and diagnose certain skin conditions.&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>About Us</title>
         <link>https://dermalyze.tech/p/about-us/</link>
         <pubDate>Wed, 24 Jan 2024 00:00:00 +0000</pubDate>

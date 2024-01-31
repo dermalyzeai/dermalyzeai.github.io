@@ -3,7 +3,28 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://dermalyze.tech/</loc>
-    <lastmod>2024-01-24T00:00:00+00:00</lastmod>
+    <lastmod>2024-01-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dermalyze.tech/tags/ai/</loc>
+    <lastmod>2024-01-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dermalyze.tech/tags/blog/</loc>
+    <lastmod>2024-01-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dermalyze.tech/categories/</loc>
+    <lastmod>2024-01-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dermalyze.tech/post/</loc>
+    <lastmod>2024-01-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dermalyze.tech/p/prototype-1/</loc>
+    <lastmod>2024-01-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dermalyze.tech/categories/prototypes/</loc>
+    <lastmod>2024-01-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dermalyze.tech/tags/</loc>
+    <lastmod>2024-01-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://dermalyze.tech/about-us/</loc>
     <lastmod>2024-01-24T00:00:00+00:00</lastmod>
@@ -14,20 +35,13 @@
     <loc>https://dermalyze.tech/page/</loc>
     <lastmod>2024-01-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dermalyze.tech/post/</loc>
-    <lastmod>2024-01-24T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://dermalyze.tech/archives/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://dermalyze.tech/categories/test/</loc>
   </url><url>
-    <loc>https://dermalyze.tech/categories/</loc>
-  </url><url>
     <loc>https://dermalyze.tech/links/</loc>
   </url><url>
     <loc>https://dermalyze.tech/search/</loc>
-  </url><url>
-    <loc>https://dermalyze.tech/tags/</loc>
   </url>
 </urlset>
