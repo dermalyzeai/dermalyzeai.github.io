@@ -10,9 +10,10 @@
 <meta property='og:description' content='A first test build of our app.'>
 <meta property='og:url' content='https://dermalyze.tech/p/prototype-1/'>
 <meta property='og:site_name' content='Dermalyze'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='AI' /><meta property='article:tag' content='blog' /><meta property='article:published_time' content='2024-01-28T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2024-01-28T00:00:00&#43;00:00'/>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='AI' /><meta property='article:tag' content='blog' /><meta property='article:published_time' content='2024-01-28T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2024-01-28T00:00:00&#43;00:00'/><meta property='og:image' content='https://dermalyze.tech/p/prototype-1/StreamlitBanner.png' />
 <meta name="twitter:title" content="Prototype #1">
-<meta name="twitter:description" content="A first test build of our app.">
+<meta name="twitter:description" content="A first test build of our app."><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://dermalyze.tech/p/prototype-1/StreamlitBanner.png' />
     <link rel="shortcut icon" href="/avatar.ico" />
 
     </head>
@@ -260,12 +261,8 @@
         <div class="widget--toc">
             <nav id="TableOfContents">
   <ol>
-    <li>
-      <ol>
-        <li><a href="#what-we-did">What We Did</a></li>
-        <li><a href="#future-plans">Future Plans</a></li>
-      </ol>
-    </li>
+    <li><a href="#what-we-did">What We Did</a></li>
+    <li><a href="#future-plans">Future Plans</a></li>
   </ol>
 </nav>
         </div>
@@ -277,8 +274,20 @@
 
 
             <main class="main full-width">
-    <article class="main-article">
+    <article class="has-image main-article">
     <header class="article-header">
+        <div class="article-image">
+            <a href="/p/prototype-1/">
+                <img src="/p/prototype-1/StreamlitBanner_huf7bb23622a0a1d6458f90aab9b395dce_380927_800x0_resize_box_3.png"
+                        srcset="/p/prototype-1/StreamlitBanner_huf7bb23622a0a1d6458f90aab9b395dce_380927_800x0_resize_box_3.png 800w, /p/prototype-1/StreamlitBanner_huf7bb23622a0a1d6458f90aab9b395dce_380927_1600x0_resize_box_3.png 1600w"
+                        width="800" 
+                        height="450" 
+                        loading="lazy"
+                        alt="Featured image of post Prototype #1" />
+                
+            </a>
+        </div>
+    
 
     <div class="article-details">
     
@@ -369,7 +378,7 @@
 		data-flex-basis="426px"
 	
 ></p>
-<h3 id="what-we-did">What We Did</h3>
+<h2 id="what-we-did">What We Did</h2>
 <p>        Recently, we just developed a very basic rendition of an AI skin-condition detection model. For our temporary purposes, we used a pre-trained checkpoint with minimal accuracy as a proof of concept. We developed our model on a web-app created by a powerful web development python library called Streamlit. Streamlit is very user-friendly when it comes to setting up web-apps, and it was also designed for the purpose of running these machine learning models. With it&rsquo;s easy-to-learn documentation and convenient implementation, we knew that it was our go-to choice to support our model whilst running well on the front-end side of things. And just within 24 hours, we were able to get this application up and running.</p>
 <p><img src="/p/prototype-1/ProtoCam.png"
 	width="496"
@@ -387,7 +396,7 @@
 > <!--<img src="ProtoCam.png" width=372px margin-left=auto margin-right=auto>--></p>
 <p>        But why such a short time contraint? Well, this project was actually one of our submissions for a hackathon. This hackathon, known as &ldquo;HackTAMS&rdquo; is hosted locally by our computer science organization and lasts about 24 hours. In that short time span, we had to get a project done so we could have it demonstrated to the judges in the morning. We scoured for ideas, features we could implement, and after we got into the flow of coding, it was all problem solving from there. We encountered a good load of issues integrating the model we found into our web-app, but with our teammate Siddarth, who is fluent in python, we managed to implement the model successfully and even get a camera feature running. Throughout the night, we decided to add more features such as a chatbot that would recommend the right type of skin products for your condition.</p>
 <p>        Although we didn&rsquo;t win any awards at the competition, the product we devloped was the prize in itself, and we couldn&rsquo;t have been prouder the way things had turned out for this project. After getting sleep from our hackathon caffeine binge, we intend to develop a model like this on our own that we hope will surpass this prototype.</p>
-<h3 id="future-plans">Future Plans</h3>
+<h2 id="future-plans">Future Plans</h2>
 <p>        Now that we have gauged what our AI model can become, we are researching pyTorch and other machine learning notebooks to recreate this model with our own hands. Because it will be us that will have made the model, we also plan to have additional functionality to it and we intend to put it through a more advanced training set so that it will be able to more accurately detect and diagnose certain skin conditions.</p>
 
 </section>
