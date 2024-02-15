@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>HTML5 Canvas</h1>
+<h2>The getImageData() Method</h2>
+<img src="./images/card-img.png" id="imggg">
+<canvas id="myCanvas" width="256" height="256" style="border:1px solid grey"></canvas>
+
+<script>
+const c = document.getElementById("myCanvas");
+const ctx = c.getContext("2d");
+ctx.fillStyle = "red";
+const img = document.getElementById("imggg")
+drawImageScaled(img, ctx);
+var imgData = ctx.getImageData(32,32,224,224);
+ctx.clearRect(0,0,256,256);
+console.log(img);
+ctx.putImageData(imgData, 0, 0);
+processImgData(imgData);
+
+function drawImageScaled(img, ctx) {
+   var canvas = ctx.canvas ;
+   var hRatio = canvas.width  / img.width    ;
+   var vRatio =  canvas.height / img.height  ;
+   var ratio  = Math.max ( hRatio, vRatio );
+   var centerShift_x = ( canvas.width - img.width*ratio ) / 2;
+   var centerShift_y = ( canvas.height - img.height*ratio ) / 2;  
+   ctx.clearRect(0,0,canvas.width, canvas.height);
+   console.log(img);
+   ctx.drawImage(img, 0,0, img.width, img.height,
+                      centerShift_x,centerShift_y,img.width*ratio, img.height*ratio);  
+}
+
+function processImgData(data) {
+   // processed array
+   var arr = [];
+   const orig = data.data;
+   console.log(orig);
+   // remove alpha channel
+   for(let i = 0; i < orig.length; i++) {
+      if((i+1)%4 != 0) {
+         arr.push(orig[i]);
+      }
+   }
+   console.log(arr);
+   // create resnet input format
+}
+</script>
+
+<p>
+<button onclick="copy()">Copy</button>
+</p>
+
+</body>
+</html>
